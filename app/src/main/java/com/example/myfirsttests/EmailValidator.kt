@@ -5,7 +5,7 @@ import android.text.TextWatcher
 import java.util.regex.Pattern
 
 class EmailValidator: TextWatcher {
-    private var isValid = false
+    internal var isValid = false
 
     override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) = Unit
 
